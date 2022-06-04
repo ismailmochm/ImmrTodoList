@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_lines_dashed.xml" value="0.234" />
+        <entry key="app/src/main/res/drawable/ic_radio_active.xml" value="0.234" />
+        <entry key="app/src/main/res/drawable/ic_radio_pasive.xml" value="0.234" />
+        <entry key="app/src/main/res/layouts/home/activity/layout/activity_add_note.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layouts/home/activity/layout/activity_home.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layouts/home/activity/layout/activity_list_note.xml" value="0.375" />
+        <entry key="app/src/main/res/layouts/home/components/layout/items_add_notes.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layouts/home/components/layout/items_list_notes.xml" value="0.4234375" />
+        <entry key="app/src/main/res/layouts/layout/splashscreen.xml" value="0.4234375" />
+        <entry key="app/src/main/res/layouts/splashscreen/layout/activity_splash.xml" value="0.4234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

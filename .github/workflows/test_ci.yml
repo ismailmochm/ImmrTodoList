@@ -56,5 +56,5 @@ jobs:
       - name: Upload Code Anaylysis To SonarCloud
         run: ./gradlew build sonarqube --info
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: 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
+          SONAR_TOKEN: b7618d088b0342b7351a795c9a441a2ed65ea21d

@@ -32,8 +32,8 @@ jobs:
       - name: Upload Artifact To Firebase App Distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1.3.2
         with:
-          appId: ${{ secrets.FIREBASE_ID }}
-          token: ${{ secrets.FIREBASE_TOKEN }}
+          appId: 1:48919699342:android:43f5e38f649bc087380edf
+          token: c_6x1Y5fQ7CHdmodMNqLYJ:APA91bG0S8wXDHhq_JfX40jaQeaoebDxUYuZI3Aq3MYuc3osZSEO_T5zmzH5l43XYNAuVHK1iilJGyja3MFzn5w2W_dNwvMJNC7yqJGzpyg6IHC6d8VvTH1Yb5OhRQ2PhuXacR0GS0oQ
           groups: Android-CICD-Testers
           releaseNotes: "Hey! This my first integrate Firebase distributions with Github Actions"
           file: app/build/outputs/apk/debug/app-debug.apk

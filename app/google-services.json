@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48919699342",
+    "project_id": "immrtodolist",
+    "storage_bucket": "immrtodolist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48919699342:android:43f5e38f649bc087380edf",
+        "android_client_info": {
+          "package_name": "com.immr.immrtodolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48919699342-n88tlq0ag6nuif2nlelihk11gi9v7pas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDklqimDOrrb_LGdDKzXeX5p3OPPhEB_80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48919699342-n88tlq0ag6nuif2nlelihk11gi9v7pas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,13 @@
 package com.immr.immrtodolist.ui.home.activity
 
-import android.content.DialogInterface
+import android.R
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.messaging.FirebaseMessaging
 import com.immr.immrtodolist.core.BaseActivity
 import com.immr.immrtodolist.data.database.NoteDB
 import com.immr.immrtodolist.databinding.ActivityListNoteBinding
@@ -26,7 +29,7 @@ class ListNoteActivity: BaseActivity() {
 
     private lateinit var adapterNotes: AdapterNotes
 
-    val db by lazy { NoteDB(this) }
+    private val db by lazy { NoteDB(this) }
 
     private val mDataNote = mutableListOf<Note>()
 
@@ -44,6 +47,17 @@ class ListNoteActivity: BaseActivity() {
 
         initAction()
         adapterNote()
+        getToken()
+    }
+
+    private fun getToken(){
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
+                if (!task.isSuccessful) {
+                    return@OnCompleteListener
+                }
+                val token = task.result
+            Log.e("token", token)
+        })
     }
 
     private fun loadNote(){

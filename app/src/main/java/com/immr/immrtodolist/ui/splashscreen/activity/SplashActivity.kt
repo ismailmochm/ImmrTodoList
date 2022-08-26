@@ -18,6 +18,7 @@ class SplashActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        
 
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, ListNoteActivity::class.java)
